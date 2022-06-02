@@ -1,0 +1,157 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="jquery練習,下拉選單跟lightbox和swiper效果。" />
+    <meta property="og:url" content="" />
+    <meta property="og:type" content="" />
+    <meta property="og:title" content="jquery練習" />
+    <meta property="og:description" content="jquery練習,下拉選單跟lightbox和swiper效果。" />
+    <meta property="og:image" content="https://glasbans.com/assets/images/services/web-design-01.jpg" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+    <link rel="stylesheet" href="css/lightbox.css">
+    <link rel="stylesheet" href="css/swiper-bundle.css">
+    <link rel="stylesheet" href="css/all.css">
+    <title>jquery練習</title>
+</head>
+
+<body>
+    <a href="#">
+        <img class="go-top" src="images/gotop.png" alt="">
+    </a>
+    <header>
+        <div class="header-wrap">
+            <h1>
+                <a href="index.html" class="logo">Hex School</a>
+            </h1>
+            <ul class="menu">
+                <li><a href="index.html">首頁</a></li>
+                <li><a href="course.html">課程</a></li>
+                <li><a href="faq.html">問答</a></li>
+                <li>
+                    <a class="list" href="#">選單1</a>
+                    <ul class="dropdown">
+                        <li><a href="#">選單1-1</a></li>
+                        <li><a href="#">選單1-2</a></li>
+                        <li><a href="#">選單1-3</a></li>
+                    </ul>
+                </li>
+                <li>
+                    <a class="list" href="#">選單2</a>
+                    <ul class="dropdown">
+                        <li><a href="#">選單2-1</a></li>
+                        <li><a href="#">選單2-2</a></li>
+                        <li><a href="#">選單2-3</a></li>
+                    </ul>
+                </li>
+
+            </ul>
+
+        </div>
+    </header>
+    <div class="banner banner_faq">
+        <div class="slogan_FAQ">
+            <h2 class="color_white">遇到問題了嗎？</h2>
+            <h3 class="hex_color">別擔心，你想找的答案都在這裡！</h3>
+            <div class="searchBar_container">
+                <input class="searchBar" type="text" placeholder="Search.." name="search">
+                <a class="search_icon" href="#"><i class="fa-solid fa-2x fa-magnifying-glass"></i></a>
+            </div>
+        </div>
+    </div>
+    <div class="wrap">
+        <div class="content">
+            <div class="hex_classes">
+                <h2 class="hex_color">常見問題＃</h2>
+                <span>你想問的說不定也在這裡</span>
+            </div>
+            <ul class="listFAQ">
+                <li>Q：為什麼你們要用 Udemy 放你們的影音課程，他有什麼好處嗎？</li>
+                <li>A：他除了可上傳影音課程外，同時也能上傳我們設計出來的範例程式碼、設計單選題目，並能在 IOS、Andorid 上面學習，同時也能追蹤每位學生的學習機制，讓我們放心挑選 Udemy
+                    作為我們的教學平台。</li>
+                <li>Q：影片課程有時效性嗎？</li>
+                <li>A：完全沒有，此課程提供終身複習服務，你隨時可聽到我們即時更新的影音課程內容。</li>
+                <li>Q：我很擔心學完後還是學不會網頁設計，有什麼辦法嗎？</li>
+                <li>A：課程結束後我們會提供給你網頁設計稿，做完後 mail 給我們，<a class="hex_color"
+                        href="mailto:service@hexschool.com">service@hexschool.com</a>，我們會替你進行程式碼檢視，以確保你的觀念吸收正確。
+                </li>
+            </ul>
+            <div class="hex_classes">
+                <h2 class="hex_color">怎麼付款＃</h2>
+                <span>付款方式保證最多元</span>
+            </div>
+            <ul class="listFAQ">
+                <li>Q：請問可以分期付款嗎？</li>
+                <li>A：當然沒問題，在本平台購買我們最高提供 6 期分期。
+                    <ul class="pay">
+                        <li>選擇產品後</li>
+                        <li>在進入金流平台付款時可選擇信用卡分期付款</li>
+                        <li>選擇期數，旁邊會附註每期應付款項</li>
+                    </ul>
+                </li>
+                <li>Q：我沒有信用卡，有沒有其他匯款方案？</li>
+                <li>A：每個課程現在都提供了其它付款方式，在課程連結旁就可以找到這個其他付款方式，而且我們是採用台灣第三方支付，安全又可靠。
+                </li>
+                <li>Q：採用其它付款流程，但還沒有收到課程怎麼辦？</li>
+                <li>A：課程會在 48 小時內寄出，如果沒有收到可以透過右下角的客服，或直接 mail 至我們的信箱
+                    <a class="hex_color" href="mailto:service@hexschool.com">service@hexschool.com</a>，我們會盡快處理以保障您的權益。
+                </li>
+            </ul>
+            <div class="hex_classes">
+                <h2 class="hex_color">我想退款＃</h2>
+                <span>期待你再次成為我們的學生</span>
+            </div>
+            <ul class="listFAQ">
+                <li>Q：如果怕線上影音課程吸收不好，可以要求退費嗎？</li>
+                <li>A：沒問題！Udemy 在 30 天內都可申請退款！</li>
+                <li>Q：Udemy 如何退款？</li>
+                <li>A：透過 Udemy 的課程頁面的 選項 下即可使用退款功能。</li>
+                <li>Q：其它支付流程如何退款？</li>
+                <li>A：請發信到<a class="hex_color" href="mailto:service@hexschool.com">service@hexschool.com</a>並詳著以下內容：
+                    <ul class="refund">
+                        <li>退款帳戶</li>
+                        <li>Udemy 用戶名稱</li>
+                        <li>購買時間</li>
+                        <li>退款原因</li>
+                        <p>接下來，我們會有專人協助退款。退款後請注意：</p>
+                        <li>退款會酌收第三方支付手續費，信用卡一次付清 2.8%、分三期 3%、分六期 3.5%、分 12 期 7%、ATM為 1%，超商為 28 元。</li>
+                        <li>退款後亦不能參與任何線上討論以及每週的線上問答</li>
+                        <li>退款後的學員再下次購買時，我們會先提供測試帳號 7 天再次鑑賞，確認該學員有需上這門課程，才能購買該次課程。</li>
+                    </ul>
+                </li>
+            </ul>
+        </div>
+        <form class="faq_form" action="">
+            <h2>找不到你的問題嗎？
+                <br>直接寄信給我們解決吧！
+            </h2>
+            <div class="info">
+                <input type="text" name="name" id="name" placeholder="你的名字是?">
+                <input type="email" name="email" id="email" placeholder="hexschool@mail.com">
+                <textarea rows="10" placeholder="你遇到什麼困難呢？"></textarea>
+                <input class="send" type="submit" value="送出">
+            </div>
+        </form>
+        <div class="footer">
+            <div class="footer_logo">
+                <a href="index.html"></a>
+                <span>© 2022 hexschool</span>
+            </div>
+            <ul class="social">
+                <li><a href="#"><i class="fa-brands fa-2x fa-facebook-square"></i></a></li>
+                <li><a href="#"><i class="fa-brands fa-2x fa-twitter-square"></i></a></li>
+                <li><a href="#"><i class="fa-brands fa-2x fa-instagram-square"></i></a></li>
+            </ul>
+
+        </div>
+    </div>
+    <script src="js/jquery-3.6.0.min.js"></script>
+    <script src="js/lightbox.js"></script>
+    <script src="js/swiper-bundle.js"></script>
+    <script src="js/all.js"></script>
+</body>
+
+</html>

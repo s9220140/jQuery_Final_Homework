@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="jquery練習,下拉選單跟lightbox和swiper效果。" />
+    <meta property="og:url" content="" />
+    <meta property="og:type" content="" />
+    <meta property="og:title" content="jquery練習" />
+    <meta property="og:description" content="jquery練習,下拉選單跟lightbox和swiper效果。" />
+    <meta property="og:image" content="https://glasbans.com/assets/images/services/web-design-01.jpg" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+    <link rel="stylesheet" href="css/lightbox.css">
+    <link rel="stylesheet" href="css/swiper-bundle.css">
+    <link rel="stylesheet" href="css/all.css">
+    <title>jquery練習</title>
+</head>
+
+<body>
+    <a href="#">
+        <img class="go-top" src="images/gotop.png" alt="">
+    </a>
+    <header>
+        <div class="header-wrap">
+            <h1>
+                <a href="index.html" class="logo">Hex School</a>
+            </h1>
+            <ul class="menu">
+                <li><a href="index.html">首頁</a></li>
+                <li><a href="course.html">課程</a></li>
+                <li><a href="faq.html">問答</a></li>
+                <li>
+                    <a class="list" href="#">選單1</a>
+                    <ul class="dropdown">
+                        <li><a href="#">選單1-1</a></li>
+                        <li><a href="#">選單1-2</a></li>
+                        <li><a href="#">選單1-3</a></li>
+                    </ul>
+                </li>
+                <li>
+                    <a class="list" href="#">選單2</a>
+                    <ul class="dropdown">
+                        <li><a href="#">選單2-1</a></li>
+                        <li><a href="#">選單2-2</a></li>
+                        <li><a href="#">選單2-3</a></li>
+                    </ul>
+                </li>
+
+            </ul>
+
+        </div>
+    </header>
+    <div class="banner banner_class">
+        <div class="slogan slogan_class">
+            <h2 class="color_white">HTML、CSS 開發網站</h2>
+            <h3 class="hex_color">從無到有學會網頁設計</h3>
+            <a href="#" class="signup">現在上課去<span>&rarr;</span> </a>
+        </div>
+        <div class="slogan_Img">
+            <img src="images/html.png" alt="Html">
+            <img src="images/css.png" alt="css">
+        </div>
+    </div>
+    <div class="wrap">
+        <div class="class_content">
+            <div class="profile">
+                <img src="images/photo.png" alt="photo">
+                <h3><span class="hex_color">廖洧杰</span><br>
+                    老師</h3>
+                <ul class="experience">
+                    <li>高雄前端社群發起人</li>
+                    <li>中華電信前端講師</li>
+                    <li>高雄大學前端講師</li>
+                    <li>十年實務經驗</li>
+                    <li>授課時數超過一千小時</li>
+                </ul>
+            </div>
+            <div class="hex_classes">
+                <h2>這堂課程有什麼特別的？</h2>
+                <span>六角課程的四大優點</span>
+            </div>
+            <ul class="hex_class">
+                <li>有能力排出具專業、語意化、美觀的網頁設計</li>
+                <li>課程結束後，會提供給你一個完整的網頁設計稿，當你實作出網頁後，就可以轉交六角學院的講師們進行程式碼審視，以確保你吸收的網頁排版觀念是正確的。</li>
+                <li>了解設計網頁的脈絡，你隨時可以在社群裡發問問題，我們永遠都會在這裡！</li>
+                <li>獲得持續更新的講義教材，終身複習不會脫離趨勢的現代化線上課程。</li>
+            </ul>
+            <div class="hex_classes">
+                <h2>這堂課程有什麼特別的？</h2>
+                <span>最扎實的學習內容編排</span>
+            </div>
+            <ul class="list">
+                <li>章節標題</li>
+                <li>網頁編輯器、HTML基礎教學</li>
+                <li>CSS 常用語法</li>
+                <li>使用CSS變更HTML標籤特性</li>
+                <li>網頁排版技巧 Part I</li>
+                <li>網頁排版技巧 Part II</li>
+                <li>切圖技巧</li>
+                <li>表格與表單設計技巧</li>
+                <li>CSS3技巧</li>
+                <li>最後，讓你的網頁變得更專業</li>
+                <li>課程作業</li>
+            </ul>
+        </div>
+        <form class="course_form">
+            <h2>心動不如馬上行動！<br>現在就成為我們的學生吧</h2>
+            <a href="#" class="signup">馬上去註冊<span>&rarr;</span></a>
+        </form>
+        <div class="footer">
+            <div class="footer_logo">
+                <a href="index.html"></a>
+                <span>© 2022 hexschool</span>
+            </div>
+            <ul class="social">
+                <li><a href="#"><i class="fa-brands fa-2x fa-facebook-square"></i></a></li>
+                <li><a href="#"><i class="fa-brands fa-2x fa-twitter-square"></i></a></li>
+                <li><a href="#"><i class="fa-brands fa-2x fa-instagram-square"></i></a></li>
+            </ul>
+
+        </div>
+    </div>
+    <script src="js/jquery-3.6.0.min.js"></script>
+    <script src="js/lightbox.js"></script>
+    <script src="js/swiper-bundle.js"></script>
+    <script src="js/all.js"></script>
+</body>
+
+</html>
